@@ -1,0 +1,8 @@
+*.wasm
+wasm_exec.js
+*.exe
+*.pem
+.vscode/
+pkg/authors/query.sql.go
+pkg/authors/db.go
+pkg/authors/models.go

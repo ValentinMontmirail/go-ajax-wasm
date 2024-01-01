@@ -1,0 +1,14 @@
+version: '2'
+sql:
+- name: authors
+  schema: pkg/authors/schema.sql
+  queries: pkg/authors/query.sql
+  engine: sqlite
+  database:
+    uri: file:authors?mode=memory&cache=shared
+  rules:
+  - sqlc/db-prepare
+  gen:
+    go:
+      package: authors
+      out: pkg/authors
