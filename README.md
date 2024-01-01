@@ -1,5 +1,7 @@
 # Go Ajax-WASM Example
 
+![logo](./img/logo.png)
+
 ## Description
 
 Go Ajax-WASM Example is a cutting-edge project demonstrating the power of WebAssembly (WASM) in conjunction with Golang to simplify AJAX calls in JavaScript. By leveraging WASM modules written in Go, this repository showcases how to perform server-side operations seamlessly within a web application, bypassing the complexities of traditional AJAX in JS.
