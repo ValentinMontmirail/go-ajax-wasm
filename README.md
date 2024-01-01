@@ -8,9 +8,9 @@ Go Ajax-WASM Example is a cutting-edge project demonstrating the power of WebAss
 
 ### Prerequisites
 - Ensure you have [sqlc](https://sqlc.dev/) installed for database interaction.
-- Install mkcert for local HTTPS development.
+- Install [mkcert](https://github.com/FiloSottile/mkcert) for local HTTPS development.
 - [TinyGo](https://tinygo.org/) is required to build the WASM module.
-- Golang should be installed to build and run the server.
+- [Golang](https://go.dev/) should be installed to build and run the server.
 
 ## Steps
 1. Generate Database Interactions
